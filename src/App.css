@@ -1,0 +1,144 @@
+#parent {
+  display: flex;
+  background-color: #235951;
+}
+#tag {
+  text-align: center;
+}
+
+.sustain {
+  color: #ffb703;
+  /* font-family: "Dancing Script", serif; */
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: bold;
+}
+/* body {
+  color: black;
+} */
+#top {
+  /* border: 1px solid black; */
+  height: 35%;
+  max-width: 100%;
+  padding: 12vh 0;
+}
+#notio {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+#bottom {
+  /* border: 1px solid blue; */
+  height: 65%;
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+}
+#right {
+  width: 100%;
+  /* border: 1px solid red; */
+  max-height: 100vh;
+  border-radius: 10px;
+  margin: auto;
+  /* margin-top: 10vh; */
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#point {
+  color: #ffb703;
+}
+/* Existing styles */
+#right > div {
+  text-align: left;
+  margin: 25px 15px;
+  color: white;
+  background-color: #235951;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  /* box-shadow: rgba(245, 60, 60, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(9, 105, 61, 0.904) 0px 10px 20px;
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease; /* Smooth hover transitions */
+}
+#sudhanshu {
+  margin-top: 130px;
+}
+#pagination {
+  border: 1px solid blue;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  width: 80%;
+}
+#pagination > button {
+  background-color: rgb(169, 206, 239);
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#pagination > button:disabled {
+  background-color: rgb(175, 175, 168);
+}
+
+/* Hover effect */
+#right > div:hover {
+  transform: translateY(-5px) scale(1); /* Lift and slightly enlarge */
+  box-shadow: rgba(9, 105, 61, 0.904) 0px 10px 20px; /* Enhanced shadow */
+  /* background-color: rgba(157, 225, 104, 0.1); */
+}
+#right > div h2 {
+  padding-bottom: 10px;
+}
+#right > div h2:nth-of-type(3) {
+  padding-bottom: 20px;
+}
+#right button {
+  background-color: white;
+  color: #235951;
+  border-radius: 6px;
+  font-size: 15px;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  margin: 0px 15px;
+}
+#right button:nth-of-type(1) {
+  background-color: white;
+}
+#footer {
+  width: 5%;
+  border-radius: 10px;
+  background-color: #235951;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer button {
+  background-color: #ffb703;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#footer button:disabled {
+  background-color: #c9c7c3;
+}
+img {
+  position: absolute;
+  width: 6%;
+  top: 12.5vh;
+  left: 0.5vw;
+  z-index: 0;
+}
+#grid-card span {
+  font-weight: bold;
+  color: #ffb703;
+}
+a {
+  color: #ffb703;
+}
